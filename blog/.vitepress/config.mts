@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
+import timeline from "vitepress-markdown-timeline";
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Quentin Maillard",
   description: "Capt'aine web",
@@ -53,15 +53,17 @@ export default defineConfig({
           ]
         }
       ],
-      '/custom-section/': [
-        {
-          text: 'Section Spéciale',
-          items: [
-            { text: 'Accueil', link: '/custom-section/' },
-            { text: 'Page spéciale', link: '/custom-section/special' }
-          ]
-        }
-      ]
+      // '/jardin/': [
+      //   {
+      //     text: 'Jardin',
+      //     link: "/jardin/",
+      //     items: [
+      //       { text: 'Fleurs (Sujets)', link: '/jardin/sujets/' },
+      //       { text: 'Promenades (Thèmes)', link: '/jardin/themes/' },
+      //       { text: 'Ressources', link: '/jardin/ressources/' },
+      //     ]
+      //   }
+      // ]
     },
     docFooter: {
       prev: "Revenir vers",
@@ -72,5 +74,9 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/QuentinMaillard'}
     ]
   },
-  // base: '/jardin/'
+  markdown: {
+    config: (md) => {
+      md.use(timeline);
+    },
+  },
 })

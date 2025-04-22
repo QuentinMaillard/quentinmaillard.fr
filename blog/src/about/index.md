@@ -5,6 +5,16 @@ En parallèle je construit des projets pédagogiques clés-en-main ou sur mesure
 
 Dernièrement, j'ai commencé à construire des programmes pédagogiques pour des cursus de la tech : ingénierie, planning, suivie des étudiants, mise en place d'outils et de process.
 
+::: timeline 2023-05-24
+- **do some thing1**
+- do some thing2
+:::
+
+::: timeline 2023-05-23
+- do some thing3
+- do some thing4
+:::
+
 Quelques mots sur ma façon de travailler.
 
 # Comment j'accompagne...

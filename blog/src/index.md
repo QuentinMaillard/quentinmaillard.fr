@@ -14,15 +14,15 @@ hero:
       text: Explorer mes offres pédagogiques 📖
       link: /offres
     - theme: alt
-      text: Explorer mon jardin 🪴
-      link: /jardin
+      text: Qui suis-je 💫
+      link: /about
 ---
 
 <!-- <video autoplay muted loop id="myVideo">
   <source src="../public/bg.mp4" type="video/mp4">
 </video> -->
 
-Je suis fasciné par le monde, curieux fou, explorateur des idées et des territoires. 
+Je suis fasciné par le monde, curieux fou, explorateur des idées et des territoires. Je ne sais pas ce que je suis, si ce n'est quelqu'un qui essaye. J'écris, j'écoute, je parle.
 
 Aujourd'hui j'ai fait de l'accompagnement ma mission, afin d'aider le plus grand nombre à rattraper et devancer ce qui sera l'un des sicèles les plus complexes et capital de notre Histoire.
 
